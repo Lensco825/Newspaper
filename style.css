@@ -37,8 +37,11 @@ h2 {
 }
 
 .side-part {
-  border-left: solid 2px black;
 width: 300px;
+}
+
+.main-part {
+  border-right: solid 2px black;
 }
 
 button {
