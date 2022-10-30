@@ -6,6 +6,12 @@ html, body {
   background-color: #E4D7C4;
 }
 
+body {
+  margin: 0;
+  height: 100%
+  border: solid 2px red;
+}
+
 main {
 display: grid;
   grid-template-columns: 80% auto;
@@ -15,6 +21,10 @@ display: grid;
 nav, li {
   display: inline-block;
   padding: 12px 40px;
+}
+
+li {
+  cursor: pointer;
 }
 
 ul {
@@ -50,6 +60,7 @@ button {
   border-radius: 8px;
   border: none;
   cursor: pointer;
+  transition: 0.8s;
 }
 
 img {
@@ -58,4 +69,22 @@ img {
 
 h1, p {
   font-family: 'Poppins', sans-serif;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+}
+
+.change {
+  color: #E4D7C4;
+  background-color: black;
+}
+
+.change-2 {
+  color: #E4D7C4;
+}
+
+.change-btn {
+  
 }
