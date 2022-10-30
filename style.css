@@ -1,0 +1,33 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+display: grid;
+  grid-template-columns: 80% auto;
+  gap: 5rem;
+}
+
+nav, li {
+  display: inline-block;
+  padding: 12px 40px;
+}
+
+ul {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
