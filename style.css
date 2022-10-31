@@ -9,17 +9,22 @@ html, body {
 body {
   margin: 0;
   height: 100%;
+
+  /* overflow-x: hidden;   */
 }
 
 main {
-display: grid;
-  grid-template-columns: 80% auto;
-  gap: 5rem;
+  display: flex;
+  justify-content: space-around;
+  /* grid-template-columns: 80% auto; */
+  /* gap: 5rem; */
+
 }
 
 nav, li {
   display: inline-block;
   padding: 12px 40px;
+
 }
 
 li {
@@ -42,6 +47,7 @@ header {
   justify-content: center;
   align-items: center;
   padding: 15px 5%;
+
 }
 
 h2 {
@@ -51,11 +57,14 @@ h2 {
 }
 
 .side-part {
-width: 300px;
+
+width: 20%;
 }
 
 .main-part {
   border-right: solid 2px black;
+  padding-right: 30px;
+  width: 70%;
 }
 
 button {
@@ -69,6 +78,7 @@ button {
 
 img {
   border-radius: 12px;
+  width: 100%;
 }
 
 h1, p {
@@ -102,6 +112,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid yellow;
 }
 .frame {
   width: 90%;
