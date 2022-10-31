@@ -3,13 +3,14 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-color: #E4D7C4;
+
 }
 
 body {
   margin: 0;
-  height: 100%;
-
+  padding: 0;
+  /* height: 100%; */
+  background-color: #E4D7C4;
   /* overflow-x: hidden;   */
 }
 
@@ -21,12 +22,21 @@ main {
 
 }
 
+nav {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 nav, li {
   display: inline-block;
-  padding: 12px 40px;
+
 
 }
 
+li > img {
+  width: 50px;
+}
 li {
   cursor: pointer;
   font-family: 'Lora', serif;
@@ -37,16 +47,17 @@ li:hover {
 }
 
 ul {
-  gap: 1rem;
+  gap: 3rem;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px 5%;
+  width: 100%;
 
 }
 
@@ -159,4 +170,13 @@ span {
 
 .others {
   font-family: 'Dancing Script', cursive;
+}
+
+.change{
+  background-color: #393E46;
+  color: #f5f5f5;
+}
+
+.b-right{
+  border-right: 2px solid #f5f5f5;
 }
