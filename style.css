@@ -3,25 +3,40 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-color: #E4D7C4;
+
 }
 
 body {
   margin: 0;
-  height: 100%;
+  padding: 0;
+  /* height: 100%; */
+  background-color: #E4D7C4;
+  /* overflow-x: hidden;   */
 }
 
 main {
-display: grid;
-  grid-template-columns: 80% auto;
-  gap: 5rem;
+  display: flex;
+  justify-content: space-around;
+  /* grid-template-columns: 80% auto; */
+  /* gap: 5rem; */
+
 }
 
+nav {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 nav, li {
   display: inline-block;
-  padding: 12px 40px;
+
+
 }
 
+li > img {
+  width: 50px;
+}
 li {
   cursor: pointer;
   font-family: 'Lora', serif;
@@ -32,16 +47,18 @@ li:hover {
 }
 
 ul {
-  gap: 1rem;
+  gap: 3rem;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px 5%;
+  width: 100%;
+
 }
 
 h2 {
@@ -51,11 +68,14 @@ h2 {
 }
 
 .side-part {
-width: 300px;
+
+width: 20%;
 }
 
 .main-part {
   border-right: solid 2px black;
+  padding-right: 30px;
+  width: 70%;
 }
 
 button {
@@ -69,6 +89,7 @@ button {
 
 img {
   border-radius: 12px;
+  width: 100%;
 }
 
 h1, p {
@@ -102,6 +123,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid yellow;
 }
 .frame {
   width: 90%;
@@ -148,4 +170,13 @@ span {
 
 .others {
   font-family: 'Dancing Script', cursive;
+}
+
+.change{
+  background-color: #393E46;
+  color: #f5f5f5;
+}
+
+.b-right{
+  border-right: 2px solid #f5f5f5;
 }
