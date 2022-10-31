@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Lora:ital@0;1&family=Poppins:wght@300;400&display=swap');
 
 html, body {
   height: 100%;
@@ -9,7 +9,6 @@ html, body {
 body {
   margin: 0;
   height: 100%;
-  border: solid 2px red;
 }
 
 main {
@@ -25,6 +24,11 @@ nav, li {
 
 li {
   cursor: pointer;
+  font-family: 'Lora', serif;
+}
+
+li:hover {
+  color: red;
 }
 
 ul {
@@ -136,4 +140,12 @@ button {
 
 .btn:active {
   top: 2px;
+}
+
+span {
+  font-family: 'Lobster', cursive;
+}
+
+.others {
+  font-family: 'Dancing Script', cursive;
 }
